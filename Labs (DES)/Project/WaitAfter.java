@@ -1,3 +1,10 @@
+import Customer;
+import Event;
+import Pair;
+import Serve;
+import Server;
+
+package Project;
 class WaitAfter extends Event {
     private final Server server;
     private static final double PRIORITY_NO = 10;
